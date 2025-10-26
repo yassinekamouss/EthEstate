@@ -1,5 +1,5 @@
 # --- ÉTAPE 1: Build ---
-FROM node:18-alpine AS builder
+FROM node:20-alpine AS builder
 
 # Définir le répertoire de travail dans le conteneur
 WORKDIR /app

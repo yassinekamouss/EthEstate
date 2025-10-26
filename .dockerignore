@@ -13,7 +13,6 @@ coverage
 # Fichiers Docker (inutiles dans le contexte de build)
 Dockerfile
 .dockerignore
-nginx.conf
 
 # Fichiers de log
 npm-debug.log*
