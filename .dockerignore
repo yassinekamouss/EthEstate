@@ -1,0 +1,19 @@
+# Dépendances et dossiers de build (gérés DANS le conteneur)
+node_modules
+dist
+.angular/cache
+coverage
+
+# Fichiers de configuration Git et IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# Fichiers Docker (inutiles dans le contexte de build)
+Dockerfile
+.dockerignore
+nginx.conf
+
+# Fichiers de log
+npm-debug.log*
